@@ -11,19 +11,19 @@ const Pagination = ({ pageContext }) => {
             <div>
                 {previousPagePath && (
                     <Link to={previousPagePath} rel="prev">
-                        Previous
+                        Précédente
                     </Link>
                 )}
             </div>
             {numberOfPages > 1 && (
                 <div className="pagination-location">
-                    Page {humanPageNumber} of {numberOfPages}
+                    Page {humanPageNumber} de {numberOfPages}
                 </div>
             )}
             <div>
                 {nextPagePath && (
                     <Link to={nextPagePath} rel="next">
-                        Next
+                        Suivante
                     </Link>
                 )}
             </div>
