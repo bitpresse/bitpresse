@@ -124,9 +124,9 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                             <div className="site-nav-right">
                                 <Link
                                     className="site-nav-button"
-                                    to="/about"
+                                    to="https://www.youtube.com/channel/UCSyW4m1o1TsvLNTdPIi3OqQ"
                                 >
-                                    About
+                                    Videos
                                 </Link>
                             </div>
                         </nav>
@@ -144,15 +144,15 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                 <footer className="site-foot">
                     <div className="site-foot-nav container">
                         <div className="site-foot-nav-left">
-                            <Link to="/">{site.title}</Link> © 2021 &mdash;
-                            Published with{" "}
+                            <Link to="/">{site.title}</Link> © 2022 &mdash;
+                            {" "}
                             <a
                                 className="site-foot-nav-item"
-                                href="https://ghost.org"
+                                href="https://akselinc.com"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                Ghost
+                                Akselinc
                             </a>
                         </div>
                         <div className="site-foot-nav-right">
